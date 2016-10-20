@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div>
+    <ul>
+        <li><a href="{% url 'not_use_id_small'%}">Not use id small</a> </li>
+        <li><a href="{% url 'use_id_small'%}">Use id small</a> </li>
+        <li><a href="{% url 'not_use_id'%}">Not use id</a> </li>
+        <li><a href="{% url 'use_id'%}">Use id</a> </li>
+        <li><a href="{% url 'not_use_sr'%}">Not use sr</a> </li>
+        <li><a href="{% url 'not_use_sr_opt'%}">Not use sr opt</a> </li>
+        <li><a href="{% url 'use_sr'%}">Use sr</a> </li>
+        <li><a href="{% url 'not_use_pr'%}">Not use pr</a> </li>
+        <li><a href="{% url 'use_pr'%}">Use pr</a> </li>
+        <li><a href="{% url 'not_use_bc'%}">Not use bc</a> </li>
+        <li><a href="{% url 'use_bc'%}">Use bc</a> </li>
+    </ul>
+</div>
+{% endblock content %}
